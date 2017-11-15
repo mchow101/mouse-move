@@ -14,7 +14,6 @@ public class MouseMove {
 				    robot.mouseMove(xCoord, yCoord);
 				} catch (AWTException e) {
 				}
-				System.out.println("Bloop");
 			  }
 		}, 2*60*1000, 2*60*1000);
 	}
